@@ -1,8 +1,8 @@
-import { Button } from 'components/Button/Button';
-import { UsersList } from 'components/UsersList/UserList';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { fetchUsers } from 'redux/users/usersOperations';
+import { Button } from 'components/Button/Button';
+import { UsersList } from 'components/UsersList/UserList';
 import { AddUserForm} from "../../components/AddUserForm/AddUserForm";
 
 export const Users = () => {
